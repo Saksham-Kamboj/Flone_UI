@@ -33,7 +33,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -51,7 +51,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -69,7 +69,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -89,7 +89,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -109,7 +109,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -129,7 +129,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -149,7 +149,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -169,7 +169,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>
@@ -189,7 +189,7 @@ function HomeStunningHomepages() {
               alt="pages image"
               width={1000}
               height={1000}
-              className="shadow-2xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
+              className="shadow-xl shadow-slate-400 rounded-xl object-cover h-full w-full group-hover:-translate-y-5 duration-300 transition-all"
             />
           </CardHeader>
           <CardFooter>

@@ -14,14 +14,13 @@ import {
 } from "@/components/ui/navigation-menu";
 
 
-
 export function HeaderNavigationMenu() {
   return (
     <NavigationMenu>
-      <NavigationMenuList className="md:flex items-center justify-center gap-10 font-bold hidden text-[#262626]">
+      <NavigationMenuList className="md:flex items-center justify-center gap-10 font-bold hidden ">
         <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className="">
+            <NavigationMenuLink >
               Home
             </NavigationMenuLink>
           </Link>
