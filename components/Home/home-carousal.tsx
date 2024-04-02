@@ -22,14 +22,15 @@ function HomeCarousal() {
           className="w-full"
         >
           <div className="px-0 md:px-0 py-5 md:py-5 flex justify-end">
-            <div className="relative md:w-32 w-24">
-              <CarouselPrevious className="bg-primary text-secondary left-0" />
-              <CarouselNext className="bg-primary text-secondary right-0" />
-            </div>
+            <div className="relative md:w-32 w-24"></div>
           </div>
           <CarouselContent>
             <CarouselItem className="md:basis-1/3 lg:basis-1/3">
-              <Card className="rounded-xl">
+              <Card
+                className="rounded-xl"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
                 <CardHeader className="p-0 overflow-hidden">
                   <Image
                     alt="image"
@@ -42,7 +43,11 @@ function HomeCarousal() {
               </Card>
             </CarouselItem>
             <CarouselItem className="md:basis-1/3 lg:basis-1/3">
-              <Card className="rounded-xl">
+              <Card
+                className="rounded-xl"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
                 <CardHeader className="p-0 overflow-hidden">
                   <Image
                     alt="image"
@@ -55,7 +60,11 @@ function HomeCarousal() {
               </Card>
             </CarouselItem>
             <CarouselItem className="md:basis-1/3 lg:basis-1/3">
-              <Card className="rounded-xl">
+              <Card
+                className="rounded-xl"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
                 <CardHeader className="p-0 overflow-hidden">
                   <Image
                     alt="image"
@@ -68,7 +77,11 @@ function HomeCarousal() {
               </Card>
             </CarouselItem>
             <CarouselItem className="md:basis-1/3 lg:basis-1/3">
-              <Card className="rounded-xl">
+              <Card
+                className="rounded-xl"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
                 <CardHeader className="p-0 overflow-hidden">
                   <Image
                     alt="image"
@@ -81,7 +94,11 @@ function HomeCarousal() {
               </Card>
             </CarouselItem>
             <CarouselItem className="md:basis-1/3 lg:basis-1/3">
-              <Card className="rounded-xl">
+              <Card
+                className="rounded-xl"
+                data-aos="zoom-in"
+                data-aos-duration="1000"
+              >
                 <CardHeader className="p-0 overflow-hidden">
                   <Image
                     alt="image"
@@ -94,6 +111,8 @@ function HomeCarousal() {
               </Card>
             </CarouselItem>
           </CarouselContent>
+          <CarouselPrevious className="bg-primary text-secondary left-0" />
+          <CarouselNext className="bg-primary text-secondary right-0" />
         </Carousel>
       </div>
     </div>

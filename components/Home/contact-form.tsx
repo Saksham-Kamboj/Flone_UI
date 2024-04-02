@@ -55,8 +55,6 @@ const ContactForm = () => {
   const [error, setError] = React.useState<string | undefined>("");
   const [success, setSuccess] = React.useState<string | undefined>("");
 
-
-
   const [isPending, setIsPending] = React.useState<boolean>(false);
 
   const form = useForm<z.infer<typeof FormSchema>>({
@@ -70,16 +68,24 @@ const ContactForm = () => {
   });
 
   function onSubmit(values: z.infer<typeof FormSchema>) {
-    console.log(values)
+    console.log(values);
   }
 
   return (
     <Card className="w-full">
       <CardHeader className="flex flex-col space-y-2 text-center">
-        <CardTitle className="text-2xl font-semibold tracking-tight text-primary">
+        <CardTitle
+          className="text-2xl font-semibold tracking-tight text-primary"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Contact Us
         </CardTitle>
-        <CardDescription className="text-sm text-muted-foreground">
+        <CardDescription
+          className="text-sm text-muted-foreground"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           Enter your full details
         </CardDescription>
       </CardHeader>
@@ -90,7 +96,7 @@ const ContactForm = () => {
               control={form.control}
               name="name"
               render={({ field }) => (
-                <FormItem>
+                <FormItem data-aos="fade-up" data-aos-duration="1000">
                   <FormLabel>Enter Your Full Name</FormLabel>
                   <FormControl>
                     <Input
@@ -108,7 +114,7 @@ const ContactForm = () => {
               control={form.control}
               name="email"
               render={({ field }) => (
-                <FormItem>
+                <FormItem data-aos="fade-up" data-aos-duration="1000">
                   <FormLabel>Enter Your Email</FormLabel>
                   <FormControl>
                     <Input
@@ -127,7 +133,7 @@ const ContactForm = () => {
               control={form.control}
               name="phone"
               render={({ field }) => (
-                <FormItem>
+                <FormItem data-aos="fade-up" data-aos-duration="1000">
                   <FormLabel>Enter Your Phone Number</FormLabel>
                   <FormControl>
                     <Input
@@ -142,12 +148,12 @@ const ContactForm = () => {
                 </FormItem>
               )}
             />
-            
+
             <FormField
               control={form.control}
               name="message"
               render={({ field }) => (
-                <FormItem>
+                <FormItem data-aos="fade-up" data-aos-duration="1000">
                   <FormLabel>Enter Your Message</FormLabel>
                   <FormControl>
                     <Textarea
@@ -163,7 +169,13 @@ const ContactForm = () => {
             />
             <FormError message={error} />
             <FormSuccess message={success} />
-            <Button disabled={isPending} type="submit" className="w-full">
+            <Button
+              disabled={isPending}
+              type="submit"
+              className="w-full"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
               {isPending && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
 
               {isPending ? "Submitting..." : "Submit Your Details"}
